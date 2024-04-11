@@ -6,14 +6,24 @@
         <meta name="description" content="#">
         <meta name="keywords" content="#">
         <meta name="author" content="Digital Yenot">
-        <title>Mini-exercises</title>
+        <title>Evaluación continua 2</title>
         <link rel="stylesheet" href="Evaluacion2_styles.css">
+        <script src="./index.js" defer></script>
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     </head>
     <body>
+        <!--
         <header>
-            <h1 onclick="window.location.href='#'"; style="cursor: pointer;" class="logo">Mini-exercises</h1>
+            <div id="title" class="#">
+                <h3 onclick="window.location.href='#'"; style="cursor: pointer;" class="logo">Evaluación continua 2</h3>
+                <h4 class="logo-sub">Alex Fernández</h4>
+            </div>
             <ul class="menu">
                 <li>
                     <a href="#">
@@ -25,11 +35,473 @@
                 </li>
             </ul>
         </header>
-        
-        <section>
+        <br>
+        -->
+        <header id="header-bar" class="text-center p-3">
+            <div class="row align-items-center">
+                <div class="col dropdown d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button id="hdr-menu" class="btn btn-outline-dark rounded-pill btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Menu
+                    </button>
+                    <ul class="dropdown-menu">
+                        <!--
+                        <li><button class="dropdown-item" type="button" href="#scrollspyHeading1">Rutinas</button></li>
+                        <li><button class="dropdown-item" type="button" href="#scrollspyHeading2">Ejercicios</button></li>
+                        <li><button class="dropdown-item" type="button" href="#scrollspyHeading3">Tu Rutina</button></li>
+                        -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#item-1">Rutinas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#item-2">Ejercicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#item-3">Tu Rutina</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#item-4">Seguimiento</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="hdr-title" class="col justify-content-md-center">
+                    <h3 onclick="window.location.href='#'"; style="cursor: pointer;" class="hdr-logo">Sôma</h3>
+                </div>
+                <div id="hdr-btns" class="col d-grid gap-2 d-md-flex justify-content-md-end">
+                    <!--
+                    <div class="form">
+                        <i class="fa fa-search"></i>
+                        <input type="text" class="form-control form-input rounded-pill" placeholder="Search anything...">
+                    </div>
+                    -->
+                    <button type="button" class="btn btn-outline-success btn-sm rounded-pill">Sign in</button>
+                    <button type="button" class="btn btn-outline-dark btn-sm rounded-pill">Free trial</button>
+                </div>
+            </div>
+        </header>
+        <!-- 
+        <section class="text-center p-3">
+            <div class="col-12">
+                
+                <div id="main-vid" class="#">
+                    <video href="https://www.youtube.com/watch?v=Yko3GMseY40&ab_channel=JacquesCrafford" class="object-fit-contain" autoplay></video>
+                </div>
 
+            </div>
         </section>
+        -->
+        <section>
+            <div class="text-center p-3">
+                <div id="main-img" class="column align-items-center">
+                    <img id="front-img" src="imgs/sven-mieke-Lx_GDv7VA9M-unsplash.jpg" class="img-fluid m-4" alt="...">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="text-left p-3">
+            <div class="col-8">
+                <h1 id="disp-6" class="display-6">Sôma is your place to reconnect — home of core <span id="leBack">workout</span> and <span id="textPop">a platform for meaningful exercise</span> and wellness. Enliven the senses and create a home practice for inner connection and growth.</h1>
+            </div>
+            <div class="col-4">
+                <div id="mySuperGif"></div>
+            </div>
+        </section>
+        <section>
+            <div class="text-center p-3">
+                <div id="thumb-imgs" class="column align-items-center">
+                    <img id="front-img" src="imgs/tyler-nix-Y1drF0Y3Oe0-unsplash.jpg" class="img-fluid w-25 m-4" alt="...">
+                    
+                    <img id="front-img" src="imgs/anastase-maragos-3dmbSaXZ22c-unsplash.jpg" class="img-fluid w-25 m-4" alt="...">
+    
+                </div>
+            </div>
+        </section>
+        <!--
+        <section>
+            <div class="text-center p-3">
+                <div id="plan-btns" class="column align-items-center p-4">
+                    <button type="button" class="btn btn-outline-success btn-lg rounded-pill m-2">Profile</button>
+                    <button type="button" class="btn btn-outline-success btn-lg rounded-pill m-2">Rutinas</button>
+                    <button type="button" class="btn btn-outline-success btn-lg rounded-pill m-2">Training</button>
+                    <button type="button" class="btn btn-outline-success btn-lg rounded-pill m-2">Training</button>
+                </div>
+            </div>
+        </section>
+        -->
+        <section>
+            <div class="text-left p-3">
+                <!-- ROW BREAK -->
+                <p id="break-gap"></p>
+
+                <!-- RUTINAS -->
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div id="plans" class="col-4 mb-4">
+                        <div data-bs-spy="scroll" data-bs-target="#navbar-example">
+                            <div id="item-1">
+                                <h1 id="disp-1" class="display-1">RUTINAS</h1>
+                                <div class="mb-4">
+                                    <h1 id="disp-6" class="display-6">Descubre los ejercicios en cada rutina.</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <form>
+                            
+                            <div class="pb-2">
+                                <label for="rutinas">Selecciona una de las rutinas:</label>
+                            </div>
+                            <div class="pb-2">
+                                <select id="rutinas" multiple>
+                                    <option value="1">Pecho</option>
+                                    <option value="2">Espalda</option>
+                                    <option value="3">Piernas</option>
+                                    <option value="4">Cardio</option>
+                                </select>
+                            </div>
+                            <div class="pb-2">
+                                <button id="btn" class="btn btn-outline-success btn-sm rounded-pill">Ver programas</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="side-img" class="col-7 text-center">
+                        <img id="front-img" src="imgs/chase-kinney-FMQBLyhD2HU-unsplash.jpg"  class="img-fluid w-10" alt="...">
+                    </div>
+                </div>
+                
+                <!-- ROW BREAK -->
+                <p id="break-gap"></p>
+
+                <!-- EJERCICIOS -->
+                <div class="row">
+                    <div id="side-img" class="col-7 text-center">
+                        <img id="front-img" src="imgs/victor-freitas-hOuJYX2K5DA-unsplash.jpg" class="img-fluid w-10" alt="...">
+                    </div>
+                    <div id="exercises" class="col-4 mb-4">
+                        <div data-bs-spy="scroll" data-bs-target="#navbar-example">
+                            <div di="item-2">
+                                <h1 id="disp-1" class="display-1">EJERCICIOS</h1>
+                                <div class="mb-4">
+                                    <h1 id="disp-6" class="display-6">Adaptados para ti.</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <form>
+                            <div class="pb-2">
+                                <label for="ejercicios">Crea tu propia lista:</label>
+                            </div>
+                            <div class="pb-2">
+                                <input type="text" id="ejercicios" placeholder="Escribe tu ejercicio" autocomplete="off">
+                            </div>
+                            <div class="pb-3">
+                                <button id="btnAdd" class="btn btn-outline-success btn-sm rounded-pill">Añadir</button>
+                            </div>
+                            <div class="pb-2">
+                                <label for="list">Lista de ejercicios:</label>
+                            </div>
+                            <div class="pb-2">
+                                <select id="list" name="list" multiple></select>
+                            </div>
+                            <div class="pb-4">
+                                <button id="btnRemove" class="btn btn-outline-success btn-sm rounded-pill">Eliminar ejercicio</button>
+                            </div>
+                            <div class="pb-2">
+                                <button id="btnFullList" class="btn btn-outline-success btn-md rounded-pill">Planificar rutina ahora!</button>
+                                <p id="messageInvalid" class="mt-2"></p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+                
+                <!-- ROW BREAK -->
+                <p id="break-gap"></p>
+
+                <!-- TU RUTINA -->
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div id="lista-ejercicios" class="col-4 mb-4">
+                        <div data-bs-spy="scroll" data-bs-target="#navbar-example">
+                            <div di="item-3">
+                                <h1 id="disp-1" class="display-1">TU RUTINA</h1>
+                                <div class="mb-4">
+                                    <h1 id="disp-6" class="display-6">Paso a paso.</h1>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion" id="accordion01">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Ejercicio 01</button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div style="width: 18rem;">
+                                            <img id="card-img" src="imgs/boxed-water-is-better-P4AIjQw1BuY-unsplash.jpeg" class="card-img-top pb-4" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Flexiones con mancuernas</h5>
+                                              <p class="card-text pb-3">Mancuernas en las manos y ejecutamos flexiones clásicas hasta rozar con el pecho el suelo. Con la espalda recta y el core y los glúteos firmes para no hundir la cadera. Series de 10 a 15 repeticiones hasta que sumes las 150 pre-establecidas.</p>
+                                            </div>
+                                            <ul class="list-group list-group-flush pb-3">
+                                              <li class="list-group-item">Series: 3</li>
+                                              <li class="list-group-item">Repeticiones: 10 a 15</li>
+                                              <li class="list-group-item">Peso: N/A</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pb-3">
+                                            <button class="btn btn-outline-success btn-sm rounded-pill" onclick="mySuperVid1()">Hide video</button>
+                                            <div id="vidDiv1">
+                                                <div class="embed-responsive embed-responsive-16by9 pt-3 pb-2">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xFafbI3x7hU?si=Bs2DRF19ijQbAik6" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Ejercicio 02
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div style="width: 18rem;">
+                                            <img id="card-img" src="imgs/jonathan-borba-lrQPTQs7nQQ-unsplash.jpg" class="card-img-top pb-4" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Abdominales</h5>
+                                              <p class="card-text pb-3">El crunch, también conocido como encogimiento, sigue siendo el ejercicio más conocido para los abdominales, y con razón. Es un ejercicio sencillo que trabaja toda la zona abdominal consiguiendo una gran contracción con cada repetición. Contrae el abdomen y levanta la parte superior de la espalda del suelo hacia las rodillas, pero la parte baja de la espalda debe permanecer apoyada en el suelo durante todo el ejercicio.</p>
+                                            </div>
+                                            <ul class="list-group list-group-flush pb-3">
+                                              <li class="list-group-item">Series: 3</li>
+                                              <li class="list-group-item">Repeticiones: 10 a 20, ve aumentando las repeticiones a medida que progreses.</li>
+                                              <li class="list-group-item">Peso: N/A</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pb-3">
+                                            <button class="btn btn-outline-success btn-sm rounded-pill" onclick="mySuperVid2()">Hide video</button>
+                                            <div id="vidDiv2">
+                                                <div class="embed-responsive embed-responsive-16by9 pt-3 pb-2">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8gqh0llsiS8?si=gNxguWwrqN2I9KRE" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Ejercicio 03
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div style="width: 18rem;">
+                                            <img id="card-img" src="imgs/bogdan-pasca-UBC4m6KEWcQ-unsplash.jpg" class="card-img-top pb-4" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Fondos de tríceps</h5>
+                                              <p class="card-text pb-3">Siéntate en el suelo de espaldas a una silla y apoya los “talones” de las manos en el borde de la silla, con las puntas de los dedos mirando hacia tu cuerpo y las rodillas flexionadas aproximadamente en un ángulo de unos 90 grados. Baja el cuerpo de forma controlada hasta que la parte superior del brazo quede en paralelo al suelo. Puedes apoyar los pies en una plataforma elevada para aumentar la intensidad del ejercicio.</p>
+                                            </div>
+                                            <ul class="list-group list-group-flush pb-3">
+                                              <li class="list-group-item">Series: 3</li>
+                                              <li class="list-group-item">Repeticiones: 10 a fallo</li>
+                                              <li class="list-group-item">Peso: N/A</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pb-3">
+                                            <button class="btn btn-outline-success btn-sm rounded-pill" onclick="mySuperVid3()">Hide video</button>
+                                            <div id="vidDiv3">
+                                                <div class="embed-responsive embed-responsive-16by9 pt-3 pb-2">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B0ZO0YGEoNM?si=_EKR5jzRbZu_yb2x" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="side-img" class="col-7 text-center">
+                        <img id="front-img" src="imgs/logan-weaver-lgnwvr-R4V1WIY9n-8-unsplash.jpg"  class="img-fluid w-10" alt="...">
+                    </div>
+                </div>
+                
+                <!-- ROW BREAK -->
+                <p id="break-gap"></p>
+
+                <!-- PROGRESO -->
+                <div class="row">
+                    <div id="side-img" class="col-5 text-center">
+                        <img id="front-img" src="imgs/morgan-petroski-rx6wXNsXUOE-unsplash.jpg" class="img-fluid w-10" alt="...">
+                    </div>
+                    <div id="exercises" class="col-6 mb-4">
+                        <div data-bs-spy="scroll" data-bs-target="#navbar-example">
+                            <div di="item-4">
+                                <h1 id="disp-1" class="display-1">SEGUIMIENTO</h1>
+                                <div class="mb-4">
+                                    <h1 id="disp-6" class="display-6">Ajusta tu entrenamiento.</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="seguimiento">
+                            <div class="pb-4">
+                                <table class="table table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Nº</th>
+                                        <th scope="col">Ejercicio</th>
+                                        <th scope="col">Serie</th>
+                                        <th scope="col">Reps</th>
+                                        <th scope="col">Peso</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Press de pierna</td>
+                                        <td>
+                                            <select id="mySeries1" onchange="mySeries1()">
+                                                <option value="60kg">1</option>
+                                                <option value="70kg">2</option>
+                                                <option value="80kg">3</option>
+                                            </select>
+                                        </td>
+                                        <td>12</td>
+                                        <td>
+                                            <p id="selectResult1"></p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jalón al pecho</td>
+                                        <td>
+                                            <select id="mySeries2" onchange="mySeries2()">
+                                                <option value="25kg">1</option>
+                                                <option value="30kg">2</option>
+                                                <option value="35kg">3</option>
+                                            </select>
+                                        </td>
+                                        <td>12</td>
+                                        <td>
+                                            <p id="selectResult2"></p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Leg extension</td>
+                                        <td>
+                                            <select id="mySeries3" onchange="mySeries3()">
+                                                <option value="40kg">1</option>
+                                                <option value="45kg">2</option>
+                                                <option value="50kg">3</option>
+                                            </select>
+                                        </td>
+                                        <td>12</td>
+                                        <td>
+                                            <p id="selectResult3"></p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">4</th>
+                                        <td>Biceps polea</td>
+                                        <td>
+                                            <select id="mySeries4" onchange="mySeries4()">
+                                                <option value="15kg">1</option>
+                                                <option value="20kg">2</option>
+                                                <option value="25kg">3</option>
+                                            </select>
+                                        </td>
+                                        <td>12</td>
+                                        <td>
+                                            <p id="selectResult4"></p>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+                            
+                            <div id="crono">
+                                <div class="mb-4">
+                                    <h1 id="disp-6" class="display-6">Cronometra tus ejercicios.</h1>
+                                </div>
+
+                                <h1 data-chronometer class="mb-3">00:00:00</h1>
+                                <button id="play" class="btn btn-outline-success btn-md rounded-pill">Play</button>
+                                <button id="pause" class="btn btn-outline-success btn-md rounded-pill">Pause</button>
+                                <button id="reset" class="btn btn-outline-success btn-md rounded-pill">Reset</button>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-1"></div>
+                </div>
+
+                <!-- ROW BREAK -->
+                <p id="break-gap"></p>
+
+            </div>
+        </section>
+
+        
+        <footer id="footer-bar" class="text-center p-3">
+            <div class="row align-items-center">
+                
+                <div id="ftr-title" class="col justify-content-md-center">
+                    <h6 onclick="window.location.href='#'"; style="color: azure;" class="hdr-logo">©Sôma all rights reserved 2024</h6>
+                </div>
+                
+            </div>
+        </footer>
+            
+        
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
     </body>
 </html>
+
+
+<!--
+
+Contexto:
+
+Imagina que estás colaborando en el desarrollo de una aplicación web para una plataforma de fitness en línea. Se te ha asignado la tarea de implementar un planificador de entrenamiento que permita a los usuarios crear rutinas de ejercicio personalizadas, realizar un seguimiento de su progreso y recibir recomendaciones de entrenamiento basadas en sus objetivos y nivel de condición física.
+
+
+Descripción del ejercicio:
+
+Desarrolla una página web que use un script en JavaScript para gestionar el planificador de entrenamiento en la aplicación web. El script debe permitir a los usuarios:
+
+* Crear rutinas de ejercicio personalizadas, seleccionando ejercicios de una lista predefinida o añadiendo ejercicios personalizados.
+* Establecer objetivos de entrenamiento, como perder peso, aumentar la fuerza o mejorar la resistencia cardiovascular. (DONE!)
+* Realizar un seguimiento del progreso de su entrenamiento, registrando la duración, la intensidad y el rendimiento en cada sesión de ejercicio.
+* Mostrar información detallada sobre los ejercicios, incluyendo instrucciones de ejecución, músculos trabajados y equipo necesario.
+* Implementar controles de entrenamiento, como iniciar y detener sesiones de ejercicio, ajustar la intensidad o el peso, y registrar el número de repeticiones y series.
+* Integrar componentes multimedia, como imágenes y videos de demostración de ejercicios, para ayudar a los usuarios a realizar correctamente cada movimiento.
+* Gestionar errores de forma adecuada, proporcionando consejos y sugerencias para corregir la técnica de ejercicio, evitar lesiones y maximizar los resultados del entrenamiento. Gestiona también los errores producidos por la propia página,  por ejemplo un link perdido. (Hay que añadir un link perdido para poder  mostrar el error).
+
+*La página web puede ser sencilla pero tiene que ser coherente, usable y atractiva.
+
+
+Rúbrica de Evaluación:
+
+A nivel genérico para un nivel de desempeño Excelente se deben añadir 4 o más funcionalidades/opciones en cada punto, teniendo en cuenta la rúbrica de evaluación siguiente.
+
+Para un nivel de desempeño Aceptable se deben añadir de 1 a 3 funcionalidades/opciones en cada punto, teniendo en cuenta la rúbrica de evaluación siguiente.
+
+Para un nivel de desempeño Insuficiente significa no añadir ninguna funcionalidad/opción en ese punto o que las añadidas están mal implementadas o no son relevantes o coherentes.
+
+
+Control sesión:
+Botones controlar tiempo Iniciar/Pausa/Finalizar
+
+
+-->
+
+<!--
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xFafbI3x7hU?si=Bs2DRF19ijQbAik6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+-->
